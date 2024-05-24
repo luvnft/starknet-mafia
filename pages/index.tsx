@@ -2,8 +2,14 @@ import { ConnectButton } from '@rainbow-me/rainbowkit';
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import { FlipWords } from "../components/flip-words";
+
+
 
 const Home: NextPage = () => {
+
+  const words = ["Mafia", "Starknet", "RainbowKit", "Web3", "Ethereum"];
+
   return (
     <div className={styles.container}>
       <Head>
@@ -16,7 +22,7 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        
+
 
         <h1 className={styles.title}>
           Welcome to <a href="">Starknet</a> <a href="">Mafia</a>
@@ -25,17 +31,40 @@ const Home: NextPage = () => {
         <p className={styles.description}>
           Get into a game of Mafia
         </p>
-        
+
+        {/* ignore */}
+        <div className="relative">
+          <div className={styles.emojis}>
+            <span className={styles.emoji} style={{ top: '10%', left: '20%' }}>🕵️‍♂️</span>
+            <span className={styles.emoji} style={{ top: '50%', left: '50%' }}>💰</span>
+            <span className={styles.emoji} style={{ top: '30%', left: '70%' }}>🔫</span>
+            <span className={styles.emoji} style={{ top: '80%', left: '40%' }}>🚬</span>
+            <span className={styles.emoji} style={{ top: '20%', left: '80%' }}>🕵️‍♀️</span>
+          </div>
+          {/* <div className="absolute inset-0 flex items-center justify-center">
+            <div className={styles.title}>
+              Using
+              <FlipWords words={words} /> <br />
+              to build a mafia game
+            </div>
+          </div> */}
+        </div>
+
+
         <ConnectButton />
+
 
 
       </main>
 
-      <footer className={styles.footer}>
+
+
+      {/* <footer className={styles.footer}>
         <a href="https://rainbow.me" rel="noopener noreferrer" target="_blank">
           Made with ❤️ by your frens at 🌈
         </a>
-      </footer>
+      </footer> */}
+
     </div>
   );
 };
