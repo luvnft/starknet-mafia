@@ -16,17 +16,17 @@ const Home: NextPage = () => {
       </Head>
 
       <main className={styles.main}>
-        <ConnectButton />
+        
 
         <h1 className={styles.title}>
-          Welcome to <a href="">RainbowKit</a> + <a href="">wagmi</a> +{' '}
-          <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <a href="">Starknet</a> <a href="">Mafia</a>
         </h1>
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.tsx</code>
+          Get into a game of Mafia with your friends on Starknet!
         </p>
+        
+        <ConnectButton />
 
         <div className={styles.grid}>
           <a className={styles.card} href="https://rainbowkit.com">
