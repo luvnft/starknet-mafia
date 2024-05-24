@@ -32,3 +32,4 @@ Check out the [Next.js deployment documentation](https://nextjs.org/docs/deploym
 # starknet-mafia
 Making a Mafia game on the Starknet ecosystem. A newbie one
 >>>>>>> 03dc33956bdbb4dd90f6bbdadb30eb11981a90d8
+# starknet-mafia-v1
