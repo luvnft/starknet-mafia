@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a [RainbowKit](https://rainbowkit.com) + [wagmi](https://wagmi.sh) + [Next.js](https://nextjs.org/) project bootstrapped with [`create-rainbowkit`](/packages/create-rainbowkit).
 
 ## Getting Started
@@ -27,3 +28,7 @@ You can check out [the RainbowKit GitHub repository](https://github.com/rainbow-
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+=======
+# starknet-mafia
+Making a Mafia game on the Starknet ecosystem. A newbie one
+>>>>>>> 03dc33956bdbb4dd90f6bbdadb30eb11981a90d8
